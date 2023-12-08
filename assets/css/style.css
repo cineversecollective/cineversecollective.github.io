@@ -79,10 +79,10 @@ html, body {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* Add the blur effect */
+  /* Add the blur effect 
   filter: blur(10px);
   -webkit-filter: blur(10px);
- /* Add the blur effect */
+  Add the blur effect */
 } 
 
 a {
