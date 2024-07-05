@@ -374,7 +374,7 @@ Header Style
   border-radius: 0px 0px 25px 25px;
   flex-basis: 100%;
   padding-top: 20px;  /*CHANGED*/
-  margin-right: 0px;
+  margin-right: -4rem; /*CHANGED*/
   justify-content: right;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
