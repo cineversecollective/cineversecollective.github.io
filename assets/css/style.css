@@ -1167,6 +1167,9 @@ Team Style
 
 .team-member {
   position: relative;
+  display: flex;
+  flex-direction: column; /* Align items in a column */
+  justify-content: space-between; /* Distribute space evenly */
 }
 
 .team-member:hover img {
@@ -1188,6 +1191,7 @@ Team Style
   padding: 140px 30px 40px 30px;
   background-color: #f1f0fe;
   text-align: justify;
+  
 }
 
 .team-member .main-content span.category {
@@ -2073,7 +2077,52 @@ body {
 }
 
 
+/* Container Styles */
+.clientele-container {
+  padding-top: 60px;
+}
+
+/* Row and Title Styles */
+.clientele-row {
+  border: 6px groove #a5393b;
+  border-radius: 50px 20px;
+  padding-bottom: 60px;
+  background-color: #ffff; /* Light background for better contrast */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Pro shadow for depth */
+}
+
+.clientele-title {
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10px;
+  color: #a5393b;
+  font-family: 'Arial', sans-serif;
+  font-size: 2em;
+}
+
+/* Slider and Logo Styles */
+.customer-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.client-logo {
+  max-width: 100px;
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow for each logo */
+}
+
+.client-logo:hover {
+  transform: scale(1.1); /* Enlarge on hover for interactivity */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+
 
 #honeypot {
   display: none; /*makes the field not visible to humans*/
 }
+
+
